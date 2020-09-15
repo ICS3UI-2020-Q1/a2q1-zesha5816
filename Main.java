@@ -12,12 +12,15 @@ public class Main {
   public static void main(String[] args) {
   // create a Scanner for user input
 	Scanner input = new Scanner(System.in);
-    // TODO code applicat
+    // prompts the user for an integer
     System.out.println("Please enter an integer:");
+		//gets the input from user
 		int numberValue = input.nextInt();
+		//divides the number by 2 and if the remiander is 0 it is an even number
 		if (numberValue % 2 == 0){
 		System.out.println(numberValue + " is an even number");
 		}
+		// else it is an odd number
 		else{
 		System.out.println(numberValue + " is an odd number");	
 		}
